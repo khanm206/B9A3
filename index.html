@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportsSpectra</title>
+
+  <!-- Icon -->
+  <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+
+  <!-- Tailwind & Daisy -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .manrope {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
+
+  <!-- Icon -->
+  <script src="https://kit.fontawesome.com/da355b6546.js" crossorigin="anonymous"></script>
+
+  <!-- Modified Color -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'btn-clr': '#FF4240'
+
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="manrope">
+  <header>
+<nav>
+  <div class="navbar bg-base-100">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-auto">
+          <li><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>News</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <a class="btn btn-ghost text-[18px] font-bold lg:text-4xl relative -left-4 lg:left-0"><img class="w-6 h-auto lg:w-12"
+        src="Images/favicon.png" alt="">Sports<span
+        class="text-btn-clr ">Spectra</span></a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="text-lg menu menu-horizontal px-1 ">
+        <li class="hover:text-btn-clr"><a>Home</a></li>
+        <li class="hover:text-btn-clr"><a>About</a></li>
+        <li class="hover:text-btn-clr"><a>News</a></li>
+        <li class="hover:text-btn-clr"><a>Blog</a></li>
+        <li class="hover:text-btn-clr"><a>Contact</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end flex gap-2">
+      <i class="hidden lg:flex fa-solid fa-magnifying-glass text-2xl"></i>
+      <a class="btn border-none bg-btn-clr text-[12px] lg:text-xl text-white p-[8px] lg:p-4 h-auto w-auto">Get Tickets</a>
+    </div>
+  </div>
+</nav>
+
+<section class="banner mx-auto">
+  <div class="carousel w-full">
+    <div id="slide1" class="carousel-item relative w-full">
+      <img src="Images/1.png" class="w-full" />
+      <div class="absolute flex gap-4 self-end bottom-10 left-10 ">
+        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a> 
+        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+      </div>
+    </div>
+    <div id="slide2" class="carousel-item relative w-full">
+      <img src="Images/12.png" class="w-full" />
+      <div class="absolute flex gap-4 self-end bottom-10 left-10">
+        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a> 
+        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
+      </div>
+    </div>
+  </div>
+</section>
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>

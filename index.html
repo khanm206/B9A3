@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SportsSpectra</title>
+  <title>Phoenix Fury
+  </title>
 
   <!-- Icon -->
-  <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
 
   <!-- Tailwind & Daisy -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -43,77 +44,128 @@
 
 <body class="manrope">
   <header>
-<!-- Nav bar -->
-<nav class="w-auto">
-  <div class="navbar bg-base-100">
-    <div class="navbar-start">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+    <!-- Nav bar -->
+    <nav class="w-auto">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-auto">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>News</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl font-bold lg:text-4xl relative -left-4 lg:left-0"><img
+              class="w-8 h-auto lg:w-16" src="Images/logo.png" alt=""><p class=" -ml-1 bg-gradient-to-r from-orange-400 to-red-600 text-transparent bg-clip-text">PhoenixFury</p></a>
         </div>
-        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-auto">
-          <li><a>Home</a></li>
-          <li><a>About</a></li>
-          <li><a>News</a></li>
-          <li><a>Blog</a></li>
-          <li><a>Contact</a></li>
-        </ul>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="text-lg menu menu-horizontal px-1 ">
+            <li class="hover:text-btn-clr"><a>Home</a></li>
+            <li class="hover:text-btn-clr"><a>About</a></li>
+            <li class="hover:text-btn-clr"><a>News</a></li>
+            <li class="hover:text-btn-clr"><a>Blog</a></li>
+            <li class="hover:text-btn-clr"><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end flex gap-2">
+          <i class="hidden lg:flex fa-solid fa-magnifying-glass text-2xl"></i>
+          <a class="btn border-none bg-btn-clr text-[12px] lg:text-xl text-white p-[8px] lg:p-4 h-auto w-auto">Get
+            Tickets</a>
+        </div>
       </div>
-      <a class="btn btn-ghost text-[18px] font-bold lg:text-4xl relative -left-4 lg:left-0"><img class="w-6 h-auto lg:w-12"
-        src="Images/favicon.png" alt="">Sports<span
-        class="text-btn-clr ">Spectra</span></a>
-    </div>
-    <div class="navbar-center hidden lg:flex">
-      <ul class="text-lg menu menu-horizontal px-1 ">
-        <li class="hover:text-btn-clr"><a>Home</a></li>
-        <li class="hover:text-btn-clr"><a>About</a></li>
-        <li class="hover:text-btn-clr"><a>News</a></li>
-        <li class="hover:text-btn-clr"><a>Blog</a></li>
-        <li class="hover:text-btn-clr"><a>Contact</a></li>
-      </ul>
-    </div>
-    <div class="navbar-end flex gap-2">
-      <i class="hidden lg:flex fa-solid fa-magnifying-glass text-2xl"></i>
-      <a class="btn border-none bg-btn-clr text-[12px] lg:text-xl text-white p-[8px] lg:p-4 h-auto w-auto">Get Tickets</a>
-    </div>
-  </div>
-</nav>
+    </nav>
 
-<!-- Banner -->
-<section class="banner mx-5 lg:mx-20 mb-4 lg:mb-0 mt-8">
-  <div class="carousel w-full">
-    <div id="slide1" class="carousel-item relative w-full">
-      <img src="Images/1.png" class="w-full" />
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 lg:translate-y-0 lg:transform-none lg:gap-4 lg:left-10 lg:right-0 lg:top-[85%] lg:justify-start">
-        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a> 
-        <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+    <!-- Banner -->
+    <section class="banner mx-5 lg:mx-20 mb-4 lg:mb-0 mt-8">
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 lg:translate-y-0 lg:transform-none lg:gap-4 lg:left-10 lg:right-0 lg:top-[85%] lg:justify-start">
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a>
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/12.png" class="w-full" />
+          <div
+          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 lg:translate-y-0 lg:transform-none lg:gap-4 lg:left-10 lg:right-0 lg:top-[85%] lg:justify-start">
+            <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a>
+            <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
+          </div>
+        </div>
       </div>
-    </div>
-    <div id="slide2" class="carousel-item relative w-full">
-      <img src="Images/12.png" class="w-full" />
-      <div class="absolute flex gap-4 self-end bottom-10 left-10">
-        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a> 
-        <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
+
+
+    </section>
+
+    <!-- Meet heros -->
+    <a class="" href="#">
+      <div class="relative lg:left-[40%] lg:-top-64 bg-black text-white lg:w-1/2 w-auto p-8 rounded-xl mx-5">
+        <div class="w-full">
+          <h3 class="lg:text-2xl text-lg font-extrabold">Meet all the heroes from the field</h3>
+          <br>
+          <p class="lg:text-base text-sm font-normal">Unveil the legends! Join us for an exclusive 'Meet the Heroes' event before
+            the match. Rub shoulders with sporting icons and feel the energy as they share their insights. Limited
+            tickets available – don't miss this chance to connect with the champions who redefine the game. Purchase
+            your tickets now!</p>
+        </div>
       </div>
-    </div>
-  </div>
-
-  
-</section>
-
-<a class=""  href="#">
-  <div class="absolute lg:left-[40%] lg:top-[35%] bg-black text-white lg:w-1/2 w-auto p-8 rounded-xl mx-5">
-   <div class="w-full">
-    <h3 class="text-2xl">Meet all the heroes from the field</h3>
-    <br>
-    <p class="text-base">Unveil the legends! Join us for an exclusive 'Meet the Heroes' event before the match. Rub shoulders with sporting icons and feel the energy as they share their insights. Limited tickets available – don't miss this chance to connect with the champions who redefine the game. Purchase your tickets now!</p>
-  </div>
-   </div>
-</a>
+    </a>
   </header>
 
-  <main>
-
+  <main class="mx-5 lg:mx-20">
+    <section class="mt-24">
+      <div class="text-center">
+        <hr class="border-dashed bg-gray-300 mb-8">
+        <h2 class="lg:text-4xl text-2xl font-extrabold">Professional PhoenixFury Club</h2>
+        <br>
+        <p class="lg:text-base text-sm font-medium">Explore our elite club, where skill meets strategy. Join a community of
+          passionate players, experienced coaches, and dedicated fans. Elevate your game with the professionalism that
+          defines our clubs.</p>
+        <hr class="border-dashed bg-gray-300 mt-8 mb-12">
+      </div>
+      <div class="mt-12 grid grid-rows-4 lg:flex justify-center lg:justify-around text-center">
+        <div class="progress-1 lg:w-[25%] mb-12 lg:mb-0">
+          <div class="radial-progress rotate-[140deg] text-red-600" style="--value:87;--size:10rem" role="progressbar">
+            <span class="-rotate-[140deg] text-black text-3xl font-extrabold">87%</span></div>
+            <h3 class="mt-6 text-xl font-semibold">Player Facility</h3>
+            <br>
+            <p class="text-base font-normal">Our professional hockey club boasts top-tier player facilities, earning an impressive 87% rating. Experience unparalleled training environments, cutting-edge equipment, and personalized support, ensuring our players reach their full potential.</p>
+        </div>
+        <div class="progress-2 lg:w-[25%] mb-12 lg:mb-0">
+          <div class="radial-progress rotate-[140deg] text-green-600" style="--value:95;--size:10rem" role="progressbar">
+            <span class="-rotate-[140deg] text-black text-3xl font-extrabold">95%</span></div>
+            <h3 class="mt-6 text-xl font-semibold">Experienced Coach</h3>
+            <br>
+            <p class="text-base font-normal">Benefit from our top-tier coaching staff boasting a remarkable 95% satisfaction rating. Our experienced coach brings a wealth of knowledge, refining players' skills and fostering a winning mentality for success on the field.</p>
+        </div>
+        <div class="progress-3 lg:w-[25%] mb-12 lg:mb-0">
+          <div class="radial-progress rotate-[140deg] text-yellow-500" style="--value:90;--size:10rem" role="progressbar">
+            <span class="-rotate-[140deg] text-black text-3xl font-extrabold">90%</span></div>
+            <h3 class="mt-6 text-xl font-semibold">Senior Player</h3>
+            <br>
+            <p class="text-base font-normal">Our Senior Player, with a stellar 90% rating, epitomizes excellence on the field. A seasoned maestro, they bring skill, leadership, support and a winning spirit, setting the standard for our team's success.</p>
+        </div>
+        <div class="progress-4 lg:w-[25%]">
+          <div class="radial-progress rotate-[140deg] text-blue-600" style="--value:80;--size:10rem" role="progressbar">
+            <span class="-rotate-[140deg] text-black text-3xl font-extrabold">80%</span></div>
+            <h3 class="mt-6 text-xl font-semibold">Training Ground</h3>
+            <br>
+            <p class="text-base font-normal">Experience excellence at our professional hockey club's state-of-the-art Training Ground, boasting an impressive 80% satisfaction rating. Elevate your skills with top-notch facilities, expert coaching, and a winning environment.</p>
+        </div>
+          
+      </div>
+      <hr class="border-dashed bg-gray-300 mt-8 mb-12">
+    </section>
   </main>
 
   <footer>
